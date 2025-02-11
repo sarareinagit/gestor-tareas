@@ -1,0 +1,28 @@
+/* Estilo css para tema claro y oscuro*/
+
+/* Tema claro */
+body {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tema oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.container.dark-mode {
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Cambios visuales adicionales */
+h1 {
+    font-size: 2rem;
+}
